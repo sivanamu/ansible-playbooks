@@ -1,0 +1,8 @@
+---
+- name: Perform Ping Test
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Validate ping Test
+      ping:
+
